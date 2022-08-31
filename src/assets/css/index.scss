@@ -1,0 +1,14 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+html,
+body {
+  color: #333333;
+  font-family: Arial, Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, sans-serif;
+  background-color: $background-color;
+  overflow-x: hidden;
+}
+
+.show-tabBar{
+  padding-bottom: 50px;
+}
